@@ -20,13 +20,6 @@ input[type="number"] {
     margin: 10px 0;
 }
 
-input[type="findNumber"] {
-    padding: 5px;
-    font-size: 20px;
-    width: 100px;
-    margin: 10px 0;
-}
-
 #lang{
     padding: 5px; 
     margin-top: 10px;
@@ -96,18 +89,12 @@ button {
       flex: 100%;
       max-width: 100%;
     }
-  }
-
-  img {
-    width: 200px !important;
-  }
-  img:hover {
-    /* Start the shake animation and make the animation last for 0.5 seconds */
-    /* animation: shake 1s; */
-  
-    /* When the animation is finished, start again */
-    /* animation-iteration-count: infinite; */
-    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    .block1-1{
+      text-align: center;
+    }
+    .btn{
+      margin-top: 10px;
+    }
   }
   
   @keyframes shake {
